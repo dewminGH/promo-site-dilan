@@ -7,7 +7,7 @@ import WORK_4 from './assets/gallery/work_4.jpeg';
 import WORK_11 from './assets/gallery/work_11.jpeg';
 import WORK_13 from './assets/gallery/work_13.jpeg';
 
-export const Home = () => {
+const Home = () => {
     return (
         <div className="mx-auto  py-6 sm:py-12 flex flex-col items-center">
             <Carousel slides={[WORK_1.src, WORK_3.src, WORK_4.src, WORK_11.src, WORK_13.src]} slideDuration={6500} />
