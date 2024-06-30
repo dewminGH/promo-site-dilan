@@ -29,7 +29,7 @@ const Header = () => {
     const DialogPanelContent = (
         <>
             <div className="flex items-center justify-between">
-                <a href="#" className="-m-1.5 p-1.5 border-red-100 rounded-lg p-2 border-2">
+                <a href="/" className="-m-1.5 p-1.5 border-red-100 rounded-lg p-2 border-2">
                     <span className="sr-only">Your Company</span>
                     <img className="h-8 w-auto" src={LOGO.src} alt="logo" />
                 </a>
@@ -73,10 +73,10 @@ const Header = () => {
     );
 
     return (
-        <header className="absolute inset-x-0 top-0 z-50">
+        <header className="fixed backdrop-blur-lg inset-x-0 top-0 z-50">
             <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1  p-1">
-                    <a href="#" className="-m-1.5 p-1.5 border-2 border-red-100 rounded-lg p-2">
+                    <a href="/" className="-m-1.5 p-1.5 border-2 border-red-100 rounded-lg p-2">
                         <span className="sr-only">Your Company</span>
                         <img className="h-8 w-auto" src={LOGO.src} alt="logo" />
                     </a>

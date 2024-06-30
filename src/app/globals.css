@@ -23,6 +23,7 @@
 }
 
 * {
+    scroll-behavior: smooth;
     scrollbar-width: thin; /* Thin scrollbar */
     scrollbar-color: rgb(79, 70, 229) transparent; /* Color of the thumb and track */
 }
